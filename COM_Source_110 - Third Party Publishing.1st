@@ -19,16 +19,6 @@
     description="Third Party Publisher sourcbooks. Use is allowed for gaming groups only.">
     </source>
 
-  <!-- DMsGuild.com -->
-    <source
-    id="pFDG"
-    name="DMsGuild.com"
-    selectable="no"
-    parent="p3PP"
-    sortorder="15"
-    description="DMsGuild.com sourcebooks. Use is allowed for gaming groups only.">
-    </source>
-
   <!-- Frog God Games -->
   <source
     id="pFGG"
@@ -37,26 +27,6 @@
     parent="p3PP"
     sortorder="15"
     description="Frog God Games sourcebooks. Use is allowed for gaming groups only.">
-    </source>
-
-  <!-- Rogue Genius Games -->
-  <source
-    id="pRGG"
-    name="Rogue Genius Games"
-    selectable="no"
-    parent="p3PP"
-    sortorder="15"
-    description="Rogue Genius Games sourcebooks. Use is allowed for gaming groups only.">
-    </source>
-    
-  <!-- TPK Games -->
-  <source
-    id="pFTPK"
-    name="TPK Games"
-    selectable="no"
-    parent="p3PP"
-    sortorder="15"
-    description="TPK Games sourcebooks. Use is allowed for gaming groups only.">
     </source>
 
   <!-- EN Publishing -->
@@ -83,16 +53,6 @@
     sortorder="10"
     description="The (Not Really) Complete Tome of Spells a fan made product of spells. Use is allowed for gaming groups only.">
     </source>
-    
-  <!-- Misc 3PP Books sorted directly under the 3PP Parent -->
-  <source
-    id="5eHomBreCP"
-    name="Homebrew Options"
-    selectable="yes"
-    parent="pFDG"
-    sortorder="10"
-    description="A selection of Homebrew options popular on DMsGuild.com">
-    </source>
 
   <!-- Frog God Games Books -->
   <source
@@ -103,39 +63,81 @@
     sortorder="10"
     description="Frog God Games Book of Lost Spells. Use is allowed for gaming groups only.">
     </source>
-  
-  <!-- TPK Games Books -->
-  <source
-    id="5e5EFeats"
-    name="TPK - Fifth Edition Feats"
-    selectable="yes"
-    parent="pFTPK"
-    sortorder="10"
-    description="TPK Games Fifth Edition Feats. Use is allowed for gaming groups only.">
-    </source>
-
-  <!-- Rogue Genius Games Books -->
-  <source
-    id="5eShaWar"
-    name="RGG - Shadow Warrior, Rogue"
-    selectable="yes"
-    parent="pRGG"
-    sortorder="10"
-    description="5e Options: Rogue Archetypes - Shadow Warrior. Use is allowed for gaming groups only.">
-    </source>
-
-
 
   <!-- EN Publishing Books -->
-  <!-- 
-  <source
+   <source
     id="5eEN5IDER"
     name="EN - EN5ider"
-    selectable="yes"
+    selectable="no"
     parent="pENPublish"
     sortorder="10"
     description="EN Publishing EN5ider books. Use is allowed for gaming groups only.">
     </source>
-  -->
+ 
+ <source
+    id="EN5_08"
+    name="En5ider 07 - Nature's Remedy"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Nature's Remedy's">
+</source>
+ 
+ <source
+    id="EN5_09"
+    name="En5ider 09 - Circles of Power"
+    selectable="no"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Circles of Power.">
+</source>
 
+<source
+    id="EN5_15"
+    name="En5ider 15 - Strands of Life"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Strands of Life.">
+</source>
+
+ <source
+    id="EN5_16"
+    name="En5ider 16 - King and Country"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="King and Country.">
+</source>
+
+<source
+    id="EN5_18"
+    name="En5ider 18 - King and Country II"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="King and Country II.">
+</source>
+
+<source
+    id="EN5_57"
+    name="En5ider 57 - Scientific Sorcerery"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="Scientific Sorcerery.">
+</source>
+
+<source
+    id="EN5_58"
+    name="En5ider 58 - It's Never Over"
+    selectable="yes"
+    parent="5eEN5IDER"
+    sortorder="0"
+    description="It's Never Over: Plot Seeds for the End of the World">
+</source>
+
+
+
+  
 </document>
