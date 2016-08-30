@@ -7,12 +7,12 @@
 *.hlz
 *.dtd
 *.hl
-!jk_local_fixes.hl
 *.xml
 *.stock
 *.db
 !*.user
 !COM_*.stock
+!jk_local_fixes*
 GREP Backup/
 Version Archives/
 importbackup/
