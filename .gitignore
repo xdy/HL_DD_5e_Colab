@@ -1,4 +1,4 @@
-# Ingore HL files
+# Ignore HL files
 *.pkg
 *.bmp
 *.htm
@@ -7,6 +7,7 @@
 *.hlz
 *.dtd
 *.hl
+!jk_local_fixes.hl
 *.xml
 *.stock
 *.db
@@ -16,4 +17,4 @@ GREP Backup/
 Version Archives/
 importbackup/
 EMPTY FILES/
-# Ingore Basic Pack files
+# Ignore Basic Pack files
