@@ -419,6 +419,7 @@ perform hero.pushtags[WepProf.?]]]></eval>
     <link linkage="castattr" thing="aINT"/>
     </thing>
   <thing id="cCla5CAlch" name="Alchemist" compset="ClassLevel" maxlimit="20">
+    <usesource source="5eHBAlcCP"/>
     <tag group="ClassType" tag="Normal"/>
     <bootstrap thing="cHelpAlc"></bootstrap>
     <link linkage="helper" thing="cHelpAlc"/>
@@ -1210,6 +1211,7 @@ perform hero.pushtags[WepProf.?]]]></eval>
     <link linkage="castattr" thing="aINT"/>
     </thing>
   <thing id="cCla5CAlc2" name="Alchemist (Non-Magical)" compset="ClassLevel" maxlimit="20">
+    <usesource source="5eHBAchCP"/>
     <tag group="ClassType" tag="Normal"/>
     <bootstrap thing="cHelpAch"></bootstrap>
     <link linkage="helper" thing="cHelpAch"/>
@@ -1945,7 +1947,7 @@ focus.field[cArrKnLev].arrayvalue[19] += 1]]></eval>
     <arrayval field="cAttrArray" index="11" value="6"/>
     <arrayval field="cAttrArray" index="15" value="8"/>
     <arrayval field="cAttrArray" index="18" value="10"/>
-    <tag group="ArmProfGrp" tag="ArmorMed"/>
+    <usesource source="5eHBBloHCP" parent="UserParent" name="Gunslinger"/>
     <tag group="ArmProfGrp" tag="WepMartial"/>
     <tag group="ArmProfGrp" tag="WepSimple"/>
     <tag group="ProfSave" tag="svSTR"/>
@@ -1962,9 +1964,7 @@ focus.field[cArrKnLev].arrayvalue[19] += 1]]></eval>
     <tag group="PrimeAbil" tag="aDEX"/>
     <tag group="PrimeAbil" tag="aSTR"/>
     <tag group="Helper" tag="PrimAttrOr"/>
-    <bootstrap thing="cHB5CBloMa">
-      <autotag group="ClSpecWhen" tag="6"/>
-      </bootstrap>
+    <tag group="ArmProfGrp" tag="ArmorMed"/>
     <bootstrap thing="cHB5CBloCu">
       <autotag group="ClSpecWhen" tag="6"/>
       </bootstrap>
@@ -2001,8 +2001,12 @@ focus.field[cArrKnLev].arrayvalue[19] += 1]]></eval>
     <bootstrap thing="cHB5CExABH">
       <autotag group="ClSpecWhen" tag="5"/>
       </bootstrap>
+    <bootstrap thing="cHB5CBloMa">
+      <autotag group="ClSpecWhen" tag="6"/>
+      </bootstrap>
     </thing>
   <thing id="cBloodHunt" name="Blood Hunter" compset="ClassLevel" maxlimit="20">
+    <usesource source="5eHBBloHCP"/>
     <tag group="ClassType" tag="Normal"/>
     <bootstrap thing="cHelpBlH"></bootstrap>
     <link linkage="helper" thing="cHelpBlH"/>
