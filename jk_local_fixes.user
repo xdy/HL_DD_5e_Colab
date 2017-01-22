@@ -1,95 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document signature="Hero Lab Data">
-  <hidden id="ft5CArcShi"/>
-  <hidden id="ft5CAugCon"/>
-  <hidden id="ft5CBackst"/>
-  <hidden id="ft5CComRef"/>
-  <hidden id="ft5CDanSen"/>
-  <hidden id="ft5CDefCom"/>
-  <hidden id="ft5CDisStr"/>
-  <hidden id="ft5CDreCar"/>
-  <hidden id="ft5CIronsk"/>
-  <hidden id="ft5CManysh"/>
-  <hidden id="ft5CParSpe"/>
-  <hidden id="ft5CPoiSho"/>
-  <hidden id="ft5CPowAtt"/>
-  <hidden id="ft5CRapSho"/>
-  <hidden id="ft5CRouPer"/>
-  <hidden id="ft5CShiof"/>
-  <hidden id="ft5CSpeFoc"/>
-  <hidden id="ft5CSpePen"/>
-  <hidden id="ft5CTaunt"/>
-  <hidden id="ft5CAlertn"/>
-  <hidden id="ft5CAthltc"/>
-  <hidden id="ft5CChaExp"/>
-  <hidden id="ft5CComCas"/>
-  <hidden id="ft5CCroExp"/>
-  <hidden id="ft5CDungeo"/>
-  <hidden id="ft5CEagleE"/>
-  <hidden id="ft5CEleMas"/>
-  <hidden id="ft5CExtSki"/>
-  <hidden id="ft5CFortui"/>
-  <hidden id="ft5CGraExp"/>
-  <hidden id="ft5CGreFor"/>
-  <hidden id="ft5CGreStr"/>
-  <hidden id="ft5CGreWea"/>
-  <hidden id="ft5CHeaArm"/>
-  <hidden id="ft5CHeaAmr"/>
-  <hidden id="ft5CInitia"/>
-  <hidden id="ft5CInsLea"/>
-  <hidden id="ft5CIroWil"/>
-  <hidden id="ft5CLigArm"/>
-  <hidden id="ft5CKeeInt"/>
-  <hidden id="ft5CLigRef"/>
-  <hidden id="ft5CLinExp"/>
-  <hidden id="ft5CMagKil"/>
-  <hidden id="ft5CMedArm"/>
-  <hidden id="ft5CMedAmr"/>
-  <hidden id="ft5CMobili"/>
-  <hidden id="ft5CMouWar"/>
-  <hidden id="ft5CPhysic"/>
-  <hidden id="ft5CPolExp"/>
-  <hidden id="ft5CRitual"/>
-  <hidden id="ft5CSavWar"/>
-  <hidden id="ft5CShaSho"/>
-  <hidden id="ft5CShiExp"/>
-  <hidden id="ft5CSpeAss"/>
-  <hidden id="ft5CStealt"/>
-  <hidden id="ft5CSteMin"/>
-  <hidden id="ft5CStrPer"/>
-  <hidden id="ft5CThespi"/>
-  <hidden id="ft5CToughn"/>
-  <hidden id="ft5CTwoFig"/>
-  <hidden id="ft5CUnaFig"/>
-  <hidden id="ft5CWeaExp"/>
-  <hidden id="ft5CDeaStr"/>
-  <hidden id="ft5CImpCri"/>
-  <hidden id="ft5CPenStr"/>
-  <hidden id="ft5CShiMas"/>
-  <hidden id="ft5CStaSti"/>
-  <hidden id="ft5CTwoFiM"/>
-  <hidden id="ft5CTwoRen"/>
-  <hidden id="ft5CBouSpe"/>
-  <hidden id="ft5CBurSpe"/>
-  <hidden id="ft5CConSpe"/>
-  <hidden id="ft5CDisSpe"/>
-  <hidden id="ft5CDisSpl"/>
-  <hidden id="ft5CEleSpe"/>
-  <hidden id="ft5CEmpSpe"/>
-  <hidden id="ft5CExtSpe"/>
-  <hidden id="ft5CHeiSpe"/>
-  <hidden id="ft5CPerSpe"/>
-  <hidden id="ft5CQuiSpe"/>
-  <hidden id="ft5CSelSpe"/>
-  <hidden id="ft5CSubSpe"/>
-  <hidden id="ft5CTopSpe"/>
-  <hidden id="ft5CThuSpe"/>
-  <hidden id="ft5CTwiSpe"/>
-  <hidden id="ft5CWidSpe"/>
-  <hidden id="ft5CWeaSpe"/>
-  <hidden id="ft5CHeaCha"/>
-  <hidden id="ft5CHerHea"/>
-  <hidden id="ft5CAniAff"/>
-  <hidden id="ft5CCleave"/>
-  <hidden id="ft5CDefExp"/>
+  <thing id="iJKKinslay" name="Kinslayer" description="This is an elegantly crafted if slightly rusty black weapon+2. If no one is attuned to it it always appears as that person&apos;s favored weapon type. Once attuned to the weapon actually becomes that type of weapon.\nWhen used against any living creature that has blood (beast, dragon, giant, humanoid, or monstrosity), it does an additional 2d6 necrotic damage.\nCurse. This sword is cursed and attuning to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the sword, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.\nThis sword cannot be sheathed until it has drawn blood. Killing or wounding any creature other than a beast, dragon, giant, humanoid, or monstrosity does not slake its thirst. In addition, until you have drawn\nblood, the blade will prevent you from sleeping. You must cause a creature to be bloodied while having done at least 10 hit points of damage from the blade itself (not from the additional necrotic damage) before the blade is satisfied.\nMagic-Resistant. While you are attuned to the item, you have advantage on all saving throws against spells. However, you must also make a saving throw whenever any spell is cast on you, even if you want the spell, and you make that roll at advantage as well. In addition, you can’t use any other magic\nitems while you have this item.\nWar Leader.  The bearer can use an action to cause his or her voice to carry clearly for  up  to 300 feet until the end of  the bearer&apos;s next turn." compset="MagicWep" buytemplate="BuyMoney" xactspecial="2">
+    <fieldval field="miAttunTxt" value="requires attunement"/>
+    <fieldval field="wAttBonus" value="2"/>
+    <fieldval field="wDamBonus" value="2"/>
+    <usesource source="JKHomebrew" parent="UserParent" name="JK Homebrew"/>
+    <tag group="wCategory" tag="Melee" name="Melee Weapon" abbrev="Melee"/>
+    <tag group="wGroup" tag="Sword" name="Sword" abbrev="Sword"/>
+    <tag group="EquipType" tag="Metal" name="Metal" abbrev="Metal"/>
+    <tag group="GearType" tag="gtWeapon" name="Weapon" abbrev="Weapon"/>
+    <tag group="Helper" tag="NeedAttune" name="Requires Attunement" abbrev="Requires Attunement"/>
+    <tag group="Helper" tag="ShowSpec" name="Show Spec" abbrev="Show Spec"/>
+    <tag group="IsWeapon" tag="wLongsword" name="Longsword" abbrev="Longsword"/>
+    <tag group="IsWeapon" tag="wArm"/>
+    <tag group="IsWeapon" tag="wBattleaxe"/>
+    <tag group="IsWeapon" tag="wBeak"/>
+    <tag group="IsWeapon" tag="wBite"/>
+    <tag group="IsWeapon" tag="wBlowgun"/>
+    <tag group="IsWeapon" tag="wClaw"/>
+    <tag group="IsWeapon" tag="wClub"/>
+    <tag group="IsWeapon" tag="wConstrict"/>
+    <tag group="IsWeapon" tag="wCrssbwHan"/>
+    <tag group="IsWeapon" tag="wCrssbwHvy"/>
+    <tag group="IsWeapon" tag="wCrossbowL"/>
+    <tag group="IsWeapon" tag="wDagger"/>
+    <tag group="IsWeapon" tag="wDart"/>
+    <tag group="IsWeapon" tag="wFist"/>
+    <tag group="IsWeapon" tag="wFlail"/>
+    <tag group="IsWeapon" tag="wGlaive"/>
+    <tag group="IsWeapon" tag="wGore"/>
+    <tag group="IsWeapon" tag="wGreataxe"/>
+    <tag group="IsWeapon" tag="wGreatclub"/>
+    <tag group="IsWeapon" tag="wGreatswrd"/>
+    <tag group="IsWeapon" tag="wHalberd"/>
+    <tag group="IsWeapon" tag="wHandaxe"/>
+    <tag group="IsWeapon" tag="wHeadButt"/>
+    <tag group="IsWeapon" tag="wHooves"/>
+    <tag group="IsWeapon" tag="wJavelin"/>
+    <tag group="IsWeapon" tag="wKick"/>
+    <tag group="IsWeapon" tag="wLance"/>
+    <tag group="IsWeapon" tag="wHammLght"/>
+    <tag group="IsWeapon" tag="wLongbow"/>
+    <tag group="IsWeapon" tag="wMace"/>
+    <tag group="IsWeapon" tag="wMaul"/>
+    <tag group="IsWeapon" tag="wMornStar"/>
+    <tag group="IsWeapon" tag="wNet"/>
+    <tag group="IsWeapon" tag="wOtherMel"/>
+    <tag group="IsWeapon" tag="wOtherRng"/>
+    <tag group="IsWeapon" tag="wPike"/>
+    <tag group="IsWeapon" tag="wPincer"/>
+    <tag group="IsWeapon" tag="wQtrstaff"/>
+    <tag group="IsWeapon" tag="wRake"/>
+    <tag group="IsWeapon" tag="wRam"/>
+    <tag group="IsWeapon" tag="wRapier"/>
+    <tag group="IsWeapon" tag="wRock"/>
+    <tag group="IsWeapon" tag="wLordAxe"/>
+    <tag group="IsWeapon" tag="wLordFlame"/>
+    <tag group="IsWeapon" tag="wLordMace"/>
+    <tag group="IsWeapon" tag="wLordSpear"/>
+    <tag group="IsWeapon" tag="wScimitar"/>
+    <tag group="IsWeapon" tag="wShortbow"/>
+    <tag group="IsWeapon" tag="wShortswor"/>
+    <tag group="IsWeapon" tag="wSickle"/>
+    <tag group="IsWeapon" tag="wSlam"/>
+    <tag group="IsWeapon" tag="wSling"/>
+    <tag group="IsWeapon" tag="wSpear"/>
+    <tag group="IsWeapon" tag="wStCharm"/>
+    <tag group="IsWeapon" tag="wStPower"/>
+    <tag group="IsWeapon" tag="wStStrike"/>
+    <tag group="IsWeapon" tag="wStThunder"/>
+    <tag group="IsWeapon" tag="wStWither"/>
+    <tag group="IsWeapon" tag="wStMagi"/>
+    <tag group="IsWeapon" tag="wStWoodlan"/>
+    <tag group="IsWeapon" tag="wStamp"/>
+    <tag group="IsWeapon" tag="wSting"/>
+    <tag group="IsWeapon" tag="wTail"/>
+    <tag group="IsWeapon" tag="wTailSlap"/>
+    <tag group="IsWeapon" tag="wTalon"/>
+    <tag group="IsWeapon" tag="wTentacle"/>
+    <tag group="IsWeapon" tag="wTongue"/>
+    <tag group="IsWeapon" tag="wTrample"/>
+    <tag group="IsWeapon" tag="wTrident"/>
+    <tag group="IsWeapon" tag="wTusk"/>
+    <tag group="IsWeapon" tag="wUnarmed"/>
+    <tag group="IsWeapon" tag="wVine"/>
+    <tag group="IsWeapon" tag="wWarPick"/>
+    <tag group="IsWeapon" tag="wWarhammer"/>
+    <tag group="IsWeapon" tag="wWeb"/>
+    <tag group="IsWeapon" tag="wWhip"/>
+    <tag group="IsWeapon" tag="wWing"/>
+    <tag group="Helper" tag="EquipAvail"/>
+    <tag group="ItemRarity" tag="VeryRare"/>
+    <tag group="Helper" tag="CursedItem"/>
+    <child entity="gMagWeapon"></child>
+    </thing>
+  <thing id="io5cEMCCr" name="Coffin of Creation" description="If you place a humanoid corpse inside this\ncoffin and close the lid for 24 hours, it will\nemerge as a particular type of undead—each\ntype of coffin creates one particular type.\nThat undead is considered to be charmed by\nyou. You do not control it, but it considers\nyou to be a trusted ally who will listen to and\nfollow your suggestions. Once you use this\nability, you cannot use it again for 2 days.\nIf  the  undead  normally  has  an\nIntelligence of less than 10, its Intelligence\nrises to 10.\nThe DM should roll a d12 or pick from\nthe following table to determine the type of\nundead the coffin creates.\nd12  Undead  d12  Undead\n1  Death Knight  7  Skeleton\n2  Ghost  8  Specter\n3  Ghast  9  Vampire\n4  Ghoul  10  Wight\n5  Mummy  11  Wraith\n6  Shadow  12  Zombie" compset="Wondrous">
+    <fieldval field="miAttunTxt" value="requires attunement by a Wizard"/>
+    <fieldval field="gWeight" value="200"/>
+    <fieldval field="gHeldMaxWt" value="300"/>
+    <fieldval field="trkMax" value="1"/>
+    <usesource source="5CCEM" parent="UserParent" name="The (Not) Complete Encyclopedica Magica"/>
+    <tag group="Helper" tag="AlwaysAvl"/>
+    <tag group="Helper" tag="NeedAttune"/>
+    <tag group="Usage" tag="2days" name="2 days" abbrev="/2days"/>
+    <tag group="Helper" tag="ShowSpec" name="Show Spec" abbrev="Show Spec"/>
+    <tag group="ItemRarity" tag="VeryRare" name="Very Rare" abbrev="Very Rare"/>
+    <tag group="GearType" tag="gtWondrous"/>
+    <tag group="thing" tag="holder"/>
+    </thing>
+  <thing id="idJKPDRAra" name="Rod of Arachna" description="A length of ivory shaped like a bone covered in small onyx spiders that look all too real makes this rod a grisly sight to behold. While holding the rod, you gain a climb speed equal  to your speed, can move as if you were wearing slippers of spiderclimbing, and have resistance to poison damage. As an action while holding the rod you can cast the web spell (save DC 14). You must complete a short or long rest before you can cast the spell with this rod again." compset="Rod">
+    <fieldval field="trkMax" value="1"/>
+    <tag group="ItemRarity" tag="VeryRare" name="Very Rare" abbrev="Very Rare"/>
+    <tag group="Helper" tag="NeedAttune"/>
+    <eval phase="First">perform hero.assign[DamageRes.dtPoison]</eval>
+    </thing>
+  <thing id="ioJKPDBoHo" name="Bomb of Horrors" description="This bomb looks like a screaming skull and has two red\nzircons for eyes. All creatures who are in the zone of the\nbomb&apos;s blast must make a DC 15 Wisdom saving throw or be\nfrightened of you for 1 minute. Creatures who fail this\nsaving throw can repeat it at the end of its turn, ending the\nfrightened condition on a success." compset="Wondrous" stacking="merge">
+    <tag group="Helper" tag="ShowSpec" name="Show Spec" abbrev="Show Spec"/>
+    <tag group="ItemRarity" tag="Rare" name="Rare" abbrev="Rare"/>
+    </thing>
+  <thing id="ioJKPDWrSp" name="Wrist Spider" description="This small device has the appearance of an adamantine\nspider with eight onyx eyes. It is inserted into the top of the\nwrist, with the abdomen of the spider facing the user’s\nhands. After the item is attached, you feel most comfortable\nin the darkened corners of rooms. You must remove your\nwrist bones and replace them with the wrist spider. This can\nonly be done during long rest.\nOnce attached, you can use \nyour action to shoot sticky webs out of your wrists at\nenemies. To do so make an attack roll using your Dexterity\nmodifier and proficiency bonus. If the attack hits, the target\nis restrained for one minute. On the target’s turn, it can make\na DC 12 Strength or Dexterity saving throw as its move to\nend the restrained condition. You cannot use this ability\nagain until you complete a short rest.\n\nWith the wrist spider attached you can use your action to\ncreate a 50-foot length of rope made of the web. The rope is\nonly slightly sticky along its length and extremely sticky at\nits ends. Because of the stickiness on its ends, the web rope\ncan be attached to any surface and can hold 1,000 pounds\nbefore it breaks. Creatures who use the web rope while\nclimbing have advantage on their Strength (Athletics) check\nto climb. After a half hour, the web rope dissolves. You\ncannot use this ability again until you complete a short rest." compset="Wondrous">
+    <fieldval field="miAttunTxt" value="takes a long rest to attune, or deattune, involving surgery"/>
+    <fieldval field="trkMax" value="2"/>
+    <tag group="Helper" tag="ShowSpec" name="Show Spec" abbrev="Show Spec"/>
+    <tag group="ItemRarity" tag="Rare"/>
+    <tag group="Helper" tag="EquipMag" name="EquipMag" abbrev="EquipMag"/>
+    <tag group="Helper" tag="NeedAttune" name="Requires Attunement" abbrev="Requires Attunement"/>
+    <tag group="Usage" tag="ShortRest"/>
+    </thing>
+  <thing id="gJKPDSepSp" name="Akros Sepora&apos;s Spellbook" description="At will: chill touch, friends, mage hand, shocking grasp\n1 st level (4 slots): detect magic, mage armor, magic missile, ray of\nsickness\n2 nd level (3 slots): blindness/deafness, detect thoughts, ray of\nenfeeblement\n3 rd level (3 slots): animate dead, fireball, vampiric touch\n4 th level (3 slots): blight, greater invisibility, stoneskin\n5 th level (3 slots): cone of cold, dominate person, cloudkill\n6 th level (1 slot): create undead\n7 th level (1 slot): finger of death\n8 th level (1 slot): mind blank\n9 th level (1 slot): true polymorph" compset="Gear">
+    <fieldval field="gWeight" value="3"/>
+    <fieldval field="gCost" value="50"/>
+    <tag group="GearType" tag="gtAdventGe" name="Adventuring Gear" abbrev="Adventuring"/>
+    </thing>
+  <thing id="ioJKDagSac" name="Dagger of Sacrifice" description="An ornate sacrificial dagger that can cast Raise Dead (pg 270) once primed by killing a sentient living being, by inserting the primed dagger into the heart of the intended resurrectee" compset="Wondrous" stacking="merge">
+    <tag group="Helper" tag="ShowSpec" name="Show Spec" abbrev="Show Spec"/>
+    <tag group="ItemRarity" tag="Rare"/>
+    </thing>
+  <thing id="ioJKPDBoSi" name="Bomb of Silence" description="This bomb has a single purple zircon on its bottom. When\nthe bomb explodes it makes no sound. After the bomb\nexplodes all sounds are magically silenced in the zone of its\nblast for 1 minute" compset="Wondrous" stacking="merge">
+    <tag group="Helper" tag="ShowSpec" name="Show Spec" abbrev="Show Spec"/>
+    <tag group="ItemRarity" tag="Rare" name="Rare" abbrev="Rare"/>
+    </thing>
   </document>
